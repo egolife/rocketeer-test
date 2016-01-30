@@ -9,7 +9,7 @@
         "laravel/framework": "5.2.*",
         "barryvdh/laravel-ide-helper": "^2.1",
         "doctrine/dbal": "^2.5",
-        "hernandev/hipchat-laravel": "dev-master"
+        "hernandev/hipchat-laravel": "@dev"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
