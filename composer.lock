@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f515e6a8a2525a481356be074e7faa0e",
-    "content-hash": "a7a5d2d57232aa3825f9ccdbc5d211c9",
+    "hash": "ee9e9feec28d20981f2a1d422b4ce5ce",
+    "content-hash": "5cceb4bc0c9a3792c9bd891a0bd10c95",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -628,16 +628,16 @@
         },
         {
             "name": "hernandev/hipchat-laravel",
-            "version": "dev-master",
+            "version": "dev-l5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/egolife/hipchat-laravel.git",
-                "reference": "96a5cde84887143501dfd6a560e46df2702d36df"
+                "reference": "d98a810970ad63fe58acc187ca0eef0731bbbfe8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/egolife/hipchat-laravel/zipball/96a5cde84887143501dfd6a560e46df2702d36df",
-                "reference": "96a5cde84887143501dfd6a560e46df2702d36df",
+                "url": "https://api.github.com/repos/egolife/hipchat-laravel/zipball/d98a810970ad63fe58acc187ca0eef0731bbbfe8",
+                "reference": "d98a810970ad63fe58acc187ca0eef0731bbbfe8",
                 "shasum": ""
             },
             "require": {
@@ -667,9 +667,9 @@
                 "package"
             ],
             "support": {
-                "source": "https://github.com/egolife/hipchat-laravel/tree/master"
+                "source": "https://github.com/egolife/hipchat-laravel/tree/l5"
             },
-            "time": "2016-01-30 15:46:14"
+            "time": "2016-01-30 17:06:39"
         },
         {
             "name": "hipchat/hipchat-php",
