@@ -23,8 +23,8 @@
 */
 
 Route::group(['middleware' => ['web']], function () {
-    Route::get('/', function(){
-       return 'hi there it\'s me!';
+    Route::get('/', function () {
+        return 'hi there it\'s me!';
     });
     Route::resource('order', 'OrderController');
 });

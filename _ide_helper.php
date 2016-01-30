@@ -1,7 +1,7 @@
 <?php
 /**
  * A helper file for Laravel 5, to provide autocomplete information to your IDE
- * Generated for Laravel 5.2.12 on 2016-01-29.
+ * Generated for Laravel 5.2.12 on 2016-01-30.
  *
  * @author Barry vd. Heuvel <barryvdh@gmail.com>
  * @see https://github.com/barryvdh/laravel-ide-helper
@@ -10145,6 +10145,164 @@ namespace {
          */
         public static function getNames(){
             return \Illuminate\View\Factory::getNames();
+        }
+        
+    }
+
+
+    class HipChat extends \Hernandev\HipchatLaravel\Facade\HipChat{
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function setRoom($room_id){
+            return \Hernandev\HipchatLaravel\HipChat::setRoom($room_id);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function returnRoom(){
+            return \Hernandev\HipchatLaravel\HipChat::returnRoom();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function setUser($user_id){
+            return \Hernandev\HipchatLaravel\HipChat::setUser($user_id);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function sendMessage($message, $color = 'gray', $notify = false){
+            return \Hernandev\HipchatLaravel\HipChat::sendMessage($message, $color, $notify);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function get_room(){
+            return \Hernandev\HipchatLaravel\HipChat::get_room();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function room_exists(){
+            return \Hernandev\HipchatLaravel\HipChat::room_exists();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function get_rooms(){
+            return \Hernandev\HipchatLaravel\HipChat::get_rooms();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function get_rooms_history($date = 'recent'){
+            return \Hernandev\HipchatLaravel\HipChat::get_rooms_history($date);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function set_room_topic($topic, $from = null){
+            return \Hernandev\HipchatLaravel\HipChat::set_room_topic($topic, $from);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function create_room($name, $privacy = null, $topic = null, $guest_access = null){
+            return \Hernandev\HipchatLaravel\HipChat::create_room($name, $privacy, $topic, $guest_access);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function delete_room(){
+            return \Hernandev\HipchatLaravel\HipChat::delete_room();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function get_user(){
+            return \Hernandev\HipchatLaravel\HipChat::get_user();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function get_users(){
+            return \Hernandev\HipchatLaravel\HipChat::get_users();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function create_user($email, $name, $mention_name = null, $title = null, $is_group_admin = 0, $password = null, $timezone = null){
+            return \Hernandev\HipchatLaravel\HipChat::create_user($email, $name, $mention_name, $title, $is_group_admin, $password, $timezone);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function update_user($email = null, $name = null, $mention_name = null, $title = null, $is_group_admin = 0, $password = null, $timezone = null){
+            return \Hernandev\HipchatLaravel\HipChat::update_user($email, $name, $mention_name, $title, $is_group_admin, $password, $timezone);
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function delete_user(){
+            return \Hernandev\HipchatLaravel\HipChat::delete_user();
+        }
+        
+        /**
+         * 
+         *
+         * @static 
+         */
+        public static function undelete_user(){
+            return \Hernandev\HipchatLaravel\HipChat::undelete_user();
         }
         
     }

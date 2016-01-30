@@ -17,13 +17,10 @@ return [
     // Tasks to execute before the core Rocketeer Tasks
     'before' => [
         'setup'   => [
-            'source ~/.bashrc',
         ],
         'deploy'  => [
-            'source ~/.bashrc',
         ],
         'cleanup' => [
-            'source ~/.bashrc',
         ],
     ],
 
