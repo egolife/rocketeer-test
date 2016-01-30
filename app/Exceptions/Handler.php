@@ -35,7 +35,7 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $e)
     {
-        HipChat::sendMessage('Произошла ошибка: ' . $e->getMessage() . 'код ошибки: ' . $e->getMessage(), 'red', true);
+        HipChat::sendMessage('Произошла ошибка: ' . $e->getMessage() . '; \nкод ошибки: ' . $e->getCode(), 'red', true);
         return parent::report($e);
     }
 

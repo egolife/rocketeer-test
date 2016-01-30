@@ -24,6 +24,7 @@
 
 Route::group(['middleware' => ['web']], function () {
     Route::get('/', function () {
+        here wiil be error
         return 'hi there it\'s me!';
     });
     Route::resource('order', 'OrderController');
