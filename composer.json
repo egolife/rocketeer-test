@@ -45,6 +45,7 @@
             "php artisan key:generate"
         ],
         "post-install-cmd": [
+            "chmod 755 artisan",
             "./artisan clear-compiled",
             "./artisan optimize"
         ],
