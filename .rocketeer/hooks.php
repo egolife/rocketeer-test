@@ -26,8 +26,13 @@ return [
 
     // Tasks to execute after the core Rocketeer Tasks
     'after'  => [
-        'setup'   => [],
-        'deploy'  => [],
+        'setup'   => [
+        ],
+        'deploy'  => [
+            "cp .env.example .env",
+            "./artisan key:generate",
+            "./artisan vendor:publish",
+        ],
         'cleanup' => [],
     ],
 
